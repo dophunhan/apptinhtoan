@@ -18,6 +18,7 @@ class ChonMonThi : AppCompatActivity() {
         lambaitienganh.setOnClickListener {
             var intent = Intent (this,ChonMucDo::class.java)
             startActivity(intent)
+            
         }
         lambaitiengviet.setOnClickListener {
             var intent = Intent (this,ChonMucDo::class.java)
