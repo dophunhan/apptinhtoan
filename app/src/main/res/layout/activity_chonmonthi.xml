@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".fragments.ChonMonThi">
     <ImageView
+        
         android:id="@+id/imageluivecacdangbaitap"
         android:layout_margin="12dp"
         android:src="@drawable/imageluive"
