@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <ImageView
+        android:id="@+id/backgroucacdangbaitap"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/vectocacdangbaitap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></ImageView>
+    <ImageView
+        android:id="@+id/vectocacdangbaitap"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/hinhtronmaido"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        ></ImageView>
+    <ImageView
+        android:id="@+id/chamxanhcacdangbaitap"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/chammauxanhcacdangbaitap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></ImageView>
+    <TextView
+        android:id="@+id/txtsocacdangbaitap"
+        android:layout_marginLeft="73dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#F8F5F5"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:text="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></TextView>
+    <TextView
+        android:id="@+id/txtbaihoc"
+        android:textColor="#090909"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="130dp"
+        android:textSize="20dp"
+        android:text="Bài học 1 "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></TextView>
+    <TextView
+        android:id="@+id/txtdadoc"
+        android:layout_marginRight="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="35dp"
+        android:text="(Đã đọc)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></TextView>
+
+</RelativeLayout>

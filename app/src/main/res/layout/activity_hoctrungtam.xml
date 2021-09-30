@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Hoctrungtam">
+    <ImageView
+        android:id="@+id/imageluivecacdangbaitap"
+        android:layout_margin="12dp"
+        android:src="@drawable/imageluive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <ImageView
+        android:layout_margin="12dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/chuongvang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+
+        android:layout_margin="12dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#070707"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Học trung tâm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <ImageView
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/backgroudtrungtam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></ImageView>
+    <ImageView
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/anhtrungtam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></ImageView>
+    <TextView
+        android:textColor="#213"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="50dp"
+        android:textStyle="bold"
+        android:text="ITkidsup - Học viện CNTT microsoft"
+        android:textSize="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></TextView>
+
+    <TextView
+        android:layout_marginRight="40dp"
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="290dp"
+        android:text="Được thành lập vào năm 2018 vơi sứ mệnh giúp thế hệ trẻ việt nam có thể tiếp cận được chương trình công nghệ"
+        android:textSize="16dp"></TextView>
+    <ImageView
+        android:id="@+id/backgroudxemthem"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="390dp"
+        android:src="@drawable/backgroudxemthemhocttrungtam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></ImageView>
+    <TextView
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:textSize="25dp"
+        android:text="Xem thêm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></TextView>
+
+</RelativeLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".danhsachbaihoc.CacDangBaTap">
+    <ImageView
+        android:id="@+id/imageluivecacdangbaitap"
+        android:layout_margin="12dp"
+        android:src="@drawable/imageluive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <ImageView
+        android:layout_margin="12dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/chuongvang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/textviewcacdangbaitap"
+        android:layout_margin="12dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#0B0A0A"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Các dạng bài tập"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <View
+        android:background="@color/colormauxanh"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/textviewcacdangbaitap"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        ></View>
+    <ImageView
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:id="@+id/baihoccacdangbaitap"
+        android:src="@drawable/baihoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <ImageView
+        android:layout_centerHorizontal="true"
+
+        android:layout_below="@+id/baihoccacdangbaitap"
+        android:id="@+id/baitap"
+        android:src="@drawable/baitap1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <ImageView
+
+        android:layout_centerHorizontal="true"
+
+        android:layout_below="@id/baitap"
+        android:id="@+id/trochoi"
+        android:src="@drawable/trochoi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <ImageView
+        android:layout_centerHorizontal="true"
+
+        android:layout_below="@id/trochoi"
+        android:id="@+id/kienthucnangcao"
+        android:src="@drawable/kienthucnangcao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+
+</RelativeLayout>

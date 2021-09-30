@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4C5DEE"
+    tools:context=".maugiao.ChuCaiActivity">
+    <ImageView
+        android:id="@+id/imageluivecacdangbaitap"
+        android:layout_margin="12dp"
+        android:src="@drawable/luivechucai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <ImageView
+        android:layout_margin="12dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/chuongvang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/textviewcacdangbaitap"
+        android:layout_margin="12dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FAF8F8"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Chữ cái"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <LinearLayout
+        android:background="@drawable/editnn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="120dp"
+        android:layout_width="327dp"
+        android:layout_height="138dp"
+        android:layout_marginRight="24dp"
+
+        >
+        <TextView
+            android:gravity="center"
+            android:textSize="96dp"
+            android:textColor="#FFDC64"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textviewchucai"
+            ></TextView>
+    </LinearLayout>
+
+    <RadioGroup
+        android:orientation="horizontal"
+        android:background="@drawable/editradio"
+        android:id="@+id/radiogroup"
+        android:layout_width="116dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="280dp">
+        <RadioButton
+            android:id="@+id/radioA"
+            android:background="@drawable/editradio"
+            android:textStyle="bold"
+            android:textColor="#669AF7"
+            android:textSize="25dp"
+            android:button="@null"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:text="A"
+            ></RadioButton>
+        <RadioButton
+            android:id="@+id/radioa"
+            android:background="@drawable/editradio"
+            android:textStyle="bold"
+            android:textColor="#669AF7"
+            android:textSize="25dp"
+            android:button="@null"
+            android:text="a"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            ></RadioButton>
+
+    </RadioGroup>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerviewchucai"
+        android:layout_width="match_parent"
+        android:layout_height="255dp"
+        android:layout_below="@+id/radiogroup"
+        android:layout_marginTop="20dp"></androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+        android:layout_below="@+id/recyclerviewchucai"
+        android:layout_width="269dp"
+        android:layout_height="128dp"
+        android:layout_marginLeft="70dp"
+
+        android:gravity="center"
+        android:text="Chạm vào các ô để nge phát âm nhé!"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"></TextView>
+
+</RelativeLayout>

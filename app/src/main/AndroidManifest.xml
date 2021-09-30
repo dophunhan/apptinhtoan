@@ -1,23 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ahihi.khoane.calculate">
+    package="com.example.baitapapp">
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/logo"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/logo"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".SplashScreenActivity">
-
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".fragments.ChonMucDo"></activity>
+        <activity android:name=".fragments.ChonMonThi" />
+        <activity android:name=".fragments.Hoctrungtam" />
+        <activity android:name=".danhsachbaitap.Danhsachbaitapsomot" />
+        <activity android:name=".danhsachbaitap.BaiTapActivity" />
+        <activity android:name=".trochoi.LevelBon" />
+        <activity android:name=".trochoi.LevelBa" />
+        <activity android:name=".trochoi.LevelHai" />
+        <activity android:name=".trochoi.LevelMot" />
+        <activity android:name=".trochoi.LevelTroChoi" />
+        <activity android:name=".baihocsomot" />
+        <activity android:name=".danhsachbaihoc.DanhSachBaiHocActivity" />
+        <activity android:name=".maugiao.CacconvatActivity" />
+        <activity android:name=".maugiao.MausacActivity" />
+        <activity android:name=".maugiao.ChuCaiActivity" />
+        <activity android:name=".maugiao.SoDiemActivity" />
+        <activity android:name=".maugiao.giaotiep" />
+        <activity android:name=".maugiao.MauGiaoActivity" />
+        <activity
+            android:name=".danhsachbaihoc.CacDangBaTap"
+            android:launchMode="singleTop" />
+        <activity android:name=".danhsachbaihoc.MonHoc" /> <!-- <activity android:name=".ChonLopHocActivity" /> -->
+        <activity android:name=".ChonLopHocActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".MainActivity">
         </activity>
     </application>
 

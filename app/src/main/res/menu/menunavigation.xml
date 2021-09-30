@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ic_home"
+        android:icon="@drawable/ic_home_black_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/ic_morong"
+        android:icon="@drawable/customicon"
+        android:title="Mở rộng" />
+
+    <item
+        android:id="@+id/icon"
+        android:icon="@drawable/nhanquaaa"
+        android:title="Đổi quà" />
+
+    <item
+
+        android:id="@+id/ic_canhan"
+        android:icon="@drawable/imagecanhan"
+        android:title="Cá nhân" />
+
+
+</menu>

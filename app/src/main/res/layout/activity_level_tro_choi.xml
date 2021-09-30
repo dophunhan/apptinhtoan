@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".trochoi.LevelTroChoi">
+
+    <ImageView
+        android:id="@+id/imageluivecacdangbaitap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:src="@drawable/imageluive" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="12dp"
+        android:src="@drawable/chuongvang" />
+
+    <TextView
+        android:id="@+id/textviewdanhsachbaihoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="12dp"
+        android:text="Các trò chơi"
+        android:textColor="#070707"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="538dp"
+
+        android:layout_marginTop="100dp"
+
+        android:src="@drawable/daylevel"></ImageView>
+
+    <ImageView
+        android:id="@+id/levelmuoi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/levelmuoi"></ImageView>
+
+    <ImageView
+        android:id="@+id/levelchin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="64dp"
+        android:layout_toLeftOf="@+id/levelmuoi"
+        android:src="@drawable/levelchin"></ImageView>
+
+    <ImageView
+        android:id="@+id/leveltam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="140dp"
+        android:src="@drawable/leveltam"></ImageView>
+
+    <ImageView
+        android:id="@+id/levelbay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/leveltam"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/levelbay"></ImageView>
+
+    <ImageView
+        android:id="@+id/levelsau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="330dp"
+        android:layout_toRightOf="@+id/levelbay"
+        android:src="@drawable/levelsau"></ImageView>
+
+    <ImageView
+        android:id="@+id/levelnam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="360dp"
+        android:layout_toRightOf="@+id/levelsau"
+        android:src="@drawable/levelnam"></ImageView>
+
+    <ImageView
+        android:id="@+id/levelbon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/levelnam"
+        android:layout_marginLeft="0dp"
+        android:layout_toRightOf="@+id/levelnam"
+        android:src="@drawable/levelbon"></ImageView>
+
+    <ImageView
+        android:id="@+id/levelba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/levelbon"
+        android:layout_marginTop="40dp"
+
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/levelbon"
+        android:src="@drawable/levelba"></ImageView>
+
+    <ImageView
+        android:id="@+id/levelhai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="28dp"
+        android:layout_toLeftOf="@+id/levelba"
+        android:src="@drawable/levelhai"></ImageView>
+
+    <ImageView
+        android:id="@+id/levelmot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+
+        android:src="@drawable/levelmot"></ImageView>
+
+</RelativeLayout>

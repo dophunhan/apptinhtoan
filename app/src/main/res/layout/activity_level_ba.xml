@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".trochoi.LevelBa">
+    <ImageView
+        android:id="@+id/imageluivecacdangbaitap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:src="@drawable/imageluive" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="12dp"
+        android:src="@drawable/chuongvang" />
+
+    <TextView
+        android:id="@+id/textviewdanhsachbaihoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="12dp"
+        android:text="Level 3"
+        android:textColor="#070707"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/backgroudlevel3"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="373dp"
+        android:layout_height="139dp"
+        android:src="@drawable/backgroulevel3"></ImageView>
+     <TextView
+         android:textStyle="bold"
+         android:layout_marginLeft="50dp"
+         android:layout_marginTop="150dp"
+         android:text="3 + 5"
+         android:textSize="40dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         ></TextView>
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="150dp"
+        android:text="5 + 3"
+        android:textSize="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></TextView>
+    <TextView
+        android:textColor="#070707"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/textviewxacnhandungsai"
+        android:background="@drawable/editvienmauxam"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="150dp"
+        android:layout_width="68dp"
+        android:layout_height="54dp"
+        ></TextView>
+
+    <TextView
+
+        android:textColor="#030404"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/backgroudlevel3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Đánh dấu thích hợp vào ô trống !"
+        android:textSize="20dp"
+        android:textStyle="bold"></TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerviewlevelba"
+        android:layout_width="match_parent"
+        android:layout_height="252dp"
+        android:layout_marginTop="300dp" />
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:id="@+id/traloilevel3"
+        android:layout_below="@id/recyclerviewlevelba"
+        android:layout_centerHorizontal="true"
+        android:layout_width="369dp"
+        android:layout_height="74dp"
+        android:src="@drawable/traloilevel"></ImageView>
+
+
+</RelativeLayout>

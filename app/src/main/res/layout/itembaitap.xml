@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/backgroubaitap"
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="20dp"
+        android:src="@drawable/backgroubaitapmauxanh"></ImageView>
+    <ImageView
+        android:id="@+id/imageplaybaitap"
+        android:layout_marginTop="37dp"
+        android:layout_marginLeft="280dp"
+        android:src="@drawable/playbaitap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></ImageView>
+    <TextView
+        android:id="@+id/textviewbaitap"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="60dp"
+        android:textStyle="bold"
+        android:textColor="#040303"
+        android:textSize="18dp"
+        android:text="Bài Tập 1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></TextView>
+    <ImageView
+        android:id="@+id/backgroudiembaitap"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="60dp"
+        android:src="@drawable/backgroudiembaitap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></ImageView>
+    <TextView
+        android:id="@+id/textviewdiembaitap"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="65dp"
+        android:textColor="#FBF8F8"
+        android:text="5 điểm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></TextView>
+</RelativeLayout>

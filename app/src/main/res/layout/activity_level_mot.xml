@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".trochoi.LevelMot">
+    <ImageView
+        android:id="@+id/imageluivecacdangbaitap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:src="@drawable/imageluive" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="12dp"
+        android:src="@drawable/chuongvang" />
+
+    <TextView
+        android:id="@+id/textviewdanhsachbaihoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="12dp"
+        android:text="Level 1"
+        android:textColor="#070707"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/anhconcamap"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/concamap"></ImageView>
+    <TextView
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold"
+        android:textColor="#090909"
+        android:textSize="25dp"
+        android:text="Đây là con gì nào ? "
+        android:layout_below="@+id/anhconcamap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerviewlevelmot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/anhconcamap"
+        android:layout_marginTop="50dp"></androidx.recyclerview.widget.RecyclerView>
+
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/traloilevel1"
+        android:layout_width="385dp"
+        android:layout_height="71dp"
+        android:layout_below="@+id/recyclerviewlevelmot"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/traloilevel"></ImageView>
+
+
+</RelativeLayout>

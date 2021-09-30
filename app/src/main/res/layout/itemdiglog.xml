@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/bongbong"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/diglogbongbong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></ImageView>
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/digloglaco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></ImageView>
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:textColor="#E91E63"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="130dp"
+        android:textSize="20dp"
+        android:text="Congratulations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></TextView>
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:textColor="#0C0C0C"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="160dp"
+        android:textSize="20dp"
+        android:text="Đáp án chính xác"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></TextView>
+    <ImageView
+        android:id="@+id/dongdialog"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/dongdialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></ImageView>
+
+</RelativeLayout>
