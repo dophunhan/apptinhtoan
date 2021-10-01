@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/backgroulambaithi"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/backroulambaithi"></ImageView>
+
+    <TextView
+        android:id="@+id/txtcauhoi"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:text="1 . Câu hỏi thứ nhất điền vào chỗ trống ..."
+        android:textColor="#0B0A0A"
+        android:textSize="20dp"
+        android:textStyle="bold"></TextView>
+    <ImageView
+        android:id="@+id/bgroua"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/backgroudapanbaithi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></ImageView>
+    <ImageView
+        android:id="@+id/bgroub"
+        android:layout_marginTop="210dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/backgroudapanbaithi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></ImageView>
+    <ImageView
+        android:id="@+id/bgrouc"
+        android:layout_marginTop="270dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/backgroudapanbaithi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></ImageView>
+    <ImageView
+        android:id="@+id/bgroud"
+        android:layout_marginTop="330dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/backgroudapanbaithi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></ImageView>
+    <TextView
+        android:id="@+id/txtdapana"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="160dp"
+        android:textColor="#0E0D0D"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:text="a . Đáp án thứ nhất"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></TextView>
+    <TextView
+        android:id="@+id/txtdapanb"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="220dp"
+        android:textColor="#0E0D0D"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:text="a . Đáp án thứ nhất"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></TextView>
+    <TextView
+        android:id="@+id/txtdapanc"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="280dp"
+        android:textColor="#0E0D0D"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:text="a . Đáp án thứ nhất"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></TextView>
+    <TextView
+        android:id="@+id/txtdapand"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="340dp"
+        android:textColor="#0E0D0D"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:text="a . Đáp án thứ nhất"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></TextView>
+</RelativeLayout>
