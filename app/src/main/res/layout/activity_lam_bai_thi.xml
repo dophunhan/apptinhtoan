@@ -54,6 +54,15 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerviewlambaithi"
         android:layout_width="match_parent"
-        android:layout_height="456dp"
+        android:layout_height="388dp"
         android:layout_marginTop="140dp"></androidx.recyclerview.widget.RecyclerView>
+   <ImageView
+       android:id="@+id/nopbaithi"
+       android:layout_centerHorizontal="true"
+       android:layout_marginBottom="60dp"
+       android:layout_alignParentBottom="true"
+       android:src="@drawable/nopbailambaithi"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       ></ImageView>
 </RelativeLayout>

@@ -7,7 +7,11 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.baitapapp.R
 import kotlinx.android.synthetic.main.itemlambaithi.view.*
 
-class Adapterlambaithi(var list : ArrayList<classlambaithi>) : RecyclerView.Adapter<lambaithiViewHolder>() {
+class Adapterlambaithi(var list : ArrayList<classlambaithi> , var onclickxulybaithi : xylynopbaithi) : RecyclerView.Adapter<lambaithiViewHolder>() {
+    open interface xylynopbaithi{
+        fun xylydapanlambaithi(p1: Int)
+    }
+    var check = -1
     override fun onCreateViewHolder(p0: ViewGroup, p1: Int): lambaithiViewHolder {
         var v = LayoutInflater.from(p0.context).inflate(R.layout.itemlambaithi,p0,false)
         return lambaithiViewHolder(v)
@@ -16,14 +20,35 @@ class Adapterlambaithi(var list : ArrayList<classlambaithi>) : RecyclerView.Adap
     override fun onBindViewHolder(p0: lambaithiViewHolder, p1: Int) {
         p0.backgroudlambaithi.setImageResource(list[p1].backrou)
         p0.txtcauhoi.text = list.get(p1).txtcauhoi
-        p0.backgroudapana.setImageResource(list[p1].backroudapana)
-        p0.backgroudapanb.setImageResource(list[p1].backroudapanb)
-        p0.backgroudapanc.setImageResource(list[p1].backroudapanc)
-        p0.backgroudapand.setImageResource(list[p1].backroudapand)
         p0.txtdapana.text = list.get(p1).txtdapana
         p0.txtdapanb.text = list.get(p1).txtdapanb
         p0.txtdapanc.text = list.get(p1).txtdapanc
         p0.txtdapand.text = list.get(p1).txtdapand
+        p0.backgroudapana.setOnClickListener {
+            p0.backgroudapana.setImageResource(R.drawable.backgroumauxanhlambaithi)
+            p0.backgroudapanb.setImageResource(R.drawable.backgroudapanbaithi)
+            p0.backgroudapanc.setImageResource(R.drawable.backgroudapanbaithi)
+            p0.backgroudapand.setImageResource(R.drawable.backgroudapanbaithi)
+        }
+        p0.backgroudapanb.setOnClickListener {
+            p0.backgroudapanb.setImageResource(R.drawable.backgroumauxanhlambaithi)
+            p0.backgroudapana.setImageResource(R.drawable.backgroudapanbaithi)
+            p0.backgroudapanc.setImageResource(R.drawable.backgroudapanbaithi)
+            p0.backgroudapand.setImageResource(R.drawable.backgroudapanbaithi)
+        }
+        p0.backgroudapanc.setOnClickListener {
+            p0.backgroudapanc.setImageResource(R.drawable.backgroumauxanhlambaithi)
+            p0.backgroudapana.setImageResource(R.drawable.backgroudapanbaithi)
+            p0.backgroudapanb.setImageResource(R.drawable.backgroudapanbaithi)
+            p0.backgroudapand.setImageResource(R.drawable.backgroudapanbaithi)
+        }
+        p0.backgroudapand.setOnClickListener {
+            p0.backgroudapand.setImageResource(R.drawable.backgroumauxanhlambaithi)
+            p0.backgroudapana.setImageResource(R.drawable.backgroudapanbaithi)
+            p0.backgroudapanb.setImageResource(R.drawable.backgroudapanbaithi)
+            p0.backgroudapanc.setImageResource(R.drawable.backgroudapanbaithi)
+        }
+
     }
 
     override fun getItemCount(): Int {

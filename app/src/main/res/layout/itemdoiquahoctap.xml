@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/hinhanhdoiquahoctap"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/doiquahoctapxedieukhien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></ImageView>
+    <TextView
+        android:id="@+id/txttenmonquahoctap"
+        android:layout_marginLeft="20dp"
+        android:textSize="18dp"
+        android:textColor="#020202"
+        android:text="Xe điều khiển từ xa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        ></TextView>
+      <TextView
+          android:id="@+id/txtsodiemmonquahoctap"
+          android:layout_marginLeft="20dp"
+          android:layout_marginTop="180dp"
+          android:textSize="18dp"
+          android:text="Số điểm :"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          ></TextView>
+    <TextView
+        android:id="@+id/sodiemdedoiquahoctap"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="180dp"
+        android:textSize="20dp"
+        android:textColor="#f12"
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></TextView>
+
+
+</RelativeLayout>
