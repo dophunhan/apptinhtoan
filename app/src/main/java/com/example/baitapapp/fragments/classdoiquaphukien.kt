@@ -1,7 +1,6 @@
 package com.example.baitapapp.fragments
 
-class doiquahoctap {
-
+class classdoiquaphukien {
     constructor(
         hinhanhdoiquahoctap: Int,
         tendoimonquahoctap: String,

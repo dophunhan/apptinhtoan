@@ -18,7 +18,8 @@ class Adaptermonquahoctap(var list : ArrayList<doiquahoctap>) : RecyclerView.Ada
         p0.hinhanhdoiquahoctap.setImageResource(list[p1].hinhanhdoiquahoctap)
         p0.tendoiquahoctap.text = list.get(p1).tendoimonquahoctap
         p0.sodiemmonquahoctap.text = list.get(p1).txtsodiem
-        p0.diemdoiquahoctap.text = list.get(p1).sodiemdedoimonquahoctap.toString()
+        p0.diemdoiquahoctap.text = list.get(p1).sodiemdedoimonquahoctap
+
     }
 
     override fun getItemCount(): Int {
@@ -31,6 +32,6 @@ class monquahoctapViewHoder(itemView: View) : RecyclerView.ViewHolder(itemView) 
     var hinhanhdoiquahoctap = itemView.hinhanhdoiquahoctap
     var tendoiquahoctap = itemView.txttenmonquahoctap
     var sodiemmonquahoctap = itemView.txtsodiemmonquahoctap
-    var diemdoiquahoctap = itemView.diemdoiqua
+    var diemdoiquahoctap = itemView.sodiemdedoiquahoctap
 
 }

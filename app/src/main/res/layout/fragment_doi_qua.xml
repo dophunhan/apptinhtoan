@@ -6,10 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".fragments.DoiQuaFragment">
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
     <RelativeLayout
         android:id="@+id/retivelayoutdoiqua"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent">
 
         <ImageView
             android:id="@+id/imageluive"
@@ -46,6 +55,7 @@
             android:textSize="20dp"></TextView>
 
         <TextView
+            android:layout_marginLeft="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="80dp"
@@ -59,8 +69,56 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="120dp"></androidx.recyclerview.widget.RecyclerView>
 
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="320dp"
+            android:text="Trò chơi"
+            android:textColor="#0B0A0A"
+            android:textSize="30dp"></TextView>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerviewdoiquatrochoi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="370dp">
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="570dp"
+            android:text="Phụ Kiện"
+            android:textColor="#0B0A0A"
+            android:textSize="30dp"></TextView>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerviewdoiquaphukien"
+            android:layout_marginTop="620dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ></androidx.recyclerview.widget.RecyclerView>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="820dp"
+            android:text="Quần áo"
+            android:textColor="#0B0A0A"
+            android:textSize="30dp"></TextView>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerviewdoiquaquanao"
+            android:layout_marginTop="870dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ></androidx.recyclerview.widget.RecyclerView>
+
+
+
 
     </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
 
 
 </FrameLayout>

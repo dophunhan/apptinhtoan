@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-
-    android:layout_width="190dp"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content">
     <ImageView
         android:id="@+id/hinhanhdoiquahoctap"
@@ -21,15 +20,15 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="150dp"
         ></TextView>
-      <TextView
-          android:id="@+id/txtsodiemmonquahoctap"
-          android:layout_marginLeft="20dp"
-          android:layout_marginTop="180dp"
-          android:textSize="18dp"
-          android:text="Số điểm :"
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          ></TextView>
+    <TextView
+        android:id="@+id/txtsodiemmonquahoctap"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="180dp"
+        android:textSize="18dp"
+        android:text="Số điểm :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></TextView>
     <TextView
         android:id="@+id/sodiemdedoiquahoctap"
         android:layout_marginLeft="120dp"
@@ -40,6 +39,5 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         ></TextView>
-
 
 </RelativeLayout>
