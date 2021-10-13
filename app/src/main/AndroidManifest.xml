@@ -10,7 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".fragments.LamBaiThi"></activity>
+        <activity android:name=".fragments.QuenMatKhau"></activity>
+        <activity android:name=".fragments.DangNhap" />
+        <activity android:name=".fragments.LamBaiThi" />
         <activity android:name=".fragments.ChonMucDo" />
         <activity android:name=".fragments.ChonMonThi" />
         <activity android:name=".fragments.Hoctrungtam" />
