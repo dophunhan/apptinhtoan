@@ -10,7 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".fragments.QuenMatKhau"></activity>
+        <activity android:name=".fragments.DangKy"></activity>
+        <activity android:name=".fragments.QuenMatKhau" />
         <activity android:name=".fragments.DangNhap" />
         <activity android:name=".fragments.LamBaiThi" />
         <activity android:name=".fragments.ChonMucDo" />
@@ -23,7 +24,6 @@
         <activity android:name=".trochoi.LevelHai" />
         <activity android:name=".trochoi.LevelMot" />
         <activity android:name=".trochoi.LevelTroChoi" />
-        <activity android:name=".baihocsomot" />
         <activity android:name=".danhsachbaihoc.DanhSachBaiHocActivity" />
         <activity android:name=".maugiao.CacconvatActivity" />
         <activity android:name=".maugiao.MausacActivity" />
@@ -34,7 +34,7 @@
         <activity
             android:name=".danhsachbaihoc.CacDangBaTap"
             android:launchMode="singleTop" />
-        <activity android:name=".danhsachbaihoc.MonHoc" /> <!-- <activity android:name=".ChonLopHocActivity" /> -->
+        <!-- <activity android:name=".ChonLopHocActivity" /> -->
         <activity android:name=".ChonLopHocActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

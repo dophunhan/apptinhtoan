@@ -6,10 +6,11 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.baitapapp.R
 import com.example.baitapapp.danhsachbaitap.Danhsachbaitapsomot
+import com.example.baitapapp.danhsachbaitap.Databaisomot
 import com.example.baitapapp.danhsachbaitap.classdanhsachbaisomot
 import kotlinx.android.synthetic.main.itemdanhsachbaihocsomot.view.*
 
-class Adapterdanhsachbaihocsomot(var list : ArrayList<classdanhsachbaisomot> , var click : clickdanhsachbaitapmot ) : RecyclerView.Adapter<danhsachbaihocViewHolder>() {
+class Adapterdanhsachbaihocsomot(var list : MutableList<Databaisomot> , var click : clickdanhsachbaitapmot ) : RecyclerView.Adapter<danhsachbaihocViewHolder>() {
    open interface clickdanhsachbaitapmot {
        fun xyludanhsachbaitapmot(p1: Int)
    }
@@ -21,8 +22,8 @@ class Adapterdanhsachbaihocsomot(var list : ArrayList<classdanhsachbaisomot> , v
     }
 
     override fun onBindViewHolder(p0: danhsachbaihocViewHolder, p1: Int) {
-        p0.bgrou.setImageResource(list[p1].backgroucautraloi)
-        p0.txtdapan.text = list.get(p1).chusocautraloi
+        p0.bgrou.setImageResource(list[p1].backgrou)
+        p0.txtdapan.text = list.get(p1).cautraloi.toString()
         if (p1 == check)
         {
             p0.bgrou.setImageResource(R.drawable.backgroumauxanhdanhsachbaihocsomot)

@@ -23,6 +23,10 @@ class CaNhanFragment : Fragment() {
             var intent = Intent (context,DangNhap::class.java)
             startActivity(intent)
         }
+        v.btndangky.setOnClickListener {
+            var intent = Intent (context,DangKy::class.java)
+            startActivity(intent)
+        }
 
         return v
     }

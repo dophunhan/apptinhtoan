@@ -43,7 +43,7 @@
         android:textSize="15dp"
         android:layout_marginLeft="75dp"
         android:layout_marginTop="65dp"
-        android:textColor="#FBF8F8"
+        android:textColor="#040303"
         android:text="5 điểm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
